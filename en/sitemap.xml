@@ -2,6 +2,19 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://blog.jiangshigui.xyz/posts/</loc><lastmod>2022-08-23T18:35:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/third/</loc><lastmod>2022-08-23T18:35:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/</loc><lastmod>2022-08-23T18:35:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://blog.jiangshigui.xyz/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://blog.jiangshigui.xyz/"
+                    /></url><url>
+            <loc>http://blog.jiangshigui.xyz/second/</loc><lastmod>2022-08-23T17:58:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/first/</loc><lastmod>2022-08-23T17:43:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://blog.jiangshigui.xyz/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -19,13 +32,4 @@
                     rel="alternate"
                     hreflang="en"
                     href="http://blog.jiangshigui.xyz/tags/"
-                    /></url><url>
-            <loc>http://blog.jiangshigui.xyz/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://blog.jiangshigui.xyz/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://blog.jiangshigui.xyz/"
                     /></url></urlset>
