@@ -4,9 +4,18 @@
         <link>http://blog.jiangshigui.xyz/</link>
         <description>XuanRan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>yuanhuafei.my@qq.com (yhf)</managingEditor>
-            <webMaster>yuanhuafei.my@qq.com (yhf)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 23 Aug 2022 18:35:45 &#43;0800</lastBuildDate>
+            <webMaster>yuanhuafei.my@qq.com (yhf)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 24 Aug 2022 14:14:49 &#43;0800</lastBuildDate>
             <atom:link href="http://blog.jiangshigui.xyz/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Sop</title>
+    <link>http://blog.jiangshigui.xyz/sop/</link>
+    <pubDate>Wed, 24 Aug 2022 14:14:49 &#43;0800</pubDate>
+    <author>yhf</author>
+    <guid>http://blog.jiangshigui.xyz/sop/</guid>
+    <description><![CDATA[Error Can‘t find Python executable “python“, you can set the PYTHON env variable.解决办法
+npm config set sass_binary_site=https://npm.taobao.org/mirrors/node-sass]]></description>
+</item>
+<item>
     <title>Third</title>
     <link>http://blog.jiangshigui.xyz/third/</link>
     <pubDate>Tue, 23 Aug 2022 18:35:45 &#43;0800</pubDate>
@@ -28,7 +37,7 @@
     <pubDate>Tue, 23 Aug 2022 17:43:08 &#43;0800</pubDate>
     <author>yhf</author>
     <guid>http://blog.jiangshigui.xyz/first/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[测试图片 ]]></description>
 </item>
 </channel>
 </rss>

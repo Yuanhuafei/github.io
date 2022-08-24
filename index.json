@@ -1,1 +1,1 @@
-[]
+[{"categories":["npm"],"content":"Error Can‘t find Python executable “python“, you can set the PYTHON env variable.解决办法 npm config set sass_binary_site=https://npm.taobao.org/mirrors/node-sass ","date":"2022-08-24","objectID":"/sop/:0:0","tags":["npm"],"title":"Sop","uri":"/sop/"},{"categories":null,"content":"测试图片 ","date":"2022-08-23","objectID":"/first/:1:0","tags":null,"title":"First","uri":"/first/"}]

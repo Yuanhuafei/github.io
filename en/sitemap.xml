@@ -2,20 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://blog.jiangshigui.xyz/posts/</loc><lastmod>2022-08-23T18:35:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://blog.jiangshigui.xyz/third/</loc><lastmod>2022-08-23T18:35:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://blog.jiangshigui.xyz/</loc><lastmod>2022-08-23T18:35:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://blog.jiangshigui.xyz/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://blog.jiangshigui.xyz/"
-                    /></url><url>
-            <loc>http://blog.jiangshigui.xyz/second/</loc><lastmod>2022-08-23T17:58:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://blog.jiangshigui.xyz/first/</loc><lastmod>2022-08-23T17:43:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://blog.jiangshigui.xyz/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://blog.jiangshigui.xyz/categories/</loc><lastmod>2022-08-24T14:14:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://blog.jiangshigui.xyz/zh-cn/categories/"
@@ -24,7 +11,11 @@
                     hreflang="en"
                     href="http://blog.jiangshigui.xyz/categories/"
                     /></url><url>
-            <loc>http://blog.jiangshigui.xyz/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://blog.jiangshigui.xyz/tags/npm/</loc><lastmod>2022-08-24T14:14:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/categories/npm/</loc><lastmod>2022-08-24T14:14:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/posts/</loc><lastmod>2022-08-24T14:14:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/sop/</loc><lastmod>2022-08-24T14:14:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/tags/</loc><lastmod>2022-08-24T14:14:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://blog.jiangshigui.xyz/zh-cn/tags/"
@@ -32,4 +23,16 @@
                     rel="alternate"
                     hreflang="en"
                     href="http://blog.jiangshigui.xyz/tags/"
-                    /></url></urlset>
+                    /></url><url>
+            <loc>http://blog.jiangshigui.xyz/</loc><lastmod>2022-08-24T14:14:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://blog.jiangshigui.xyz/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://blog.jiangshigui.xyz/"
+                    /></url><url>
+            <loc>http://blog.jiangshigui.xyz/third/</loc><lastmod>2022-08-23T18:35:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/second/</loc><lastmod>2022-08-23T17:58:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://blog.jiangshigui.xyz/first/</loc><lastmod>2022-08-23T17:43:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
