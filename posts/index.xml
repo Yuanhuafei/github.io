@@ -4,7 +4,20 @@
         <link>http://blog.jiangshigui.xyz/posts/</link>
         <description>All Posts | xuanran</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>yuanhuafei.my@qq.com (yhf)</managingEditor>
-            <webMaster>yuanhuafei.my@qq.com (yhf)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 24 Aug 2022 14:14:49 &#43;0800</lastBuildDate><atom:link href="http://blog.jiangshigui.xyz/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>yuanhuafei.my@qq.com (yhf)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 27 Aug 2022 10:45:51 &#43;0800</lastBuildDate><atom:link href="http://blog.jiangshigui.xyz/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>群晖自建Bitwarden</title>
+    <link>http://blog.jiangshigui.xyz/bitwarden/</link>
+    <pubDate>Sat, 27 Aug 2022 10:45:51 &#43;0800</pubDate>
+    <author>yhf</author>
+    <guid>http://blog.jiangshigui.xyz/bitwarden/</guid>
+    <description><![CDATA[群晖自建bitwarden docker安装bitwarden 安装完成后
+配置https 已有域名和ssl
+配置反向代理
+nat 我是公网ip到路由器的
+路由器设置转发到反向代理的端口
+成功]]></description>
+</item>
+<item>
     <title>Sop</title>
     <link>http://blog.jiangshigui.xyz/sop/</link>
     <pubDate>Wed, 24 Aug 2022 14:14:49 &#43;0800</pubDate>
