@@ -4,44 +4,34 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>群晖自建Bitwarden - xuanran</title><meta name="Description" content="XuanRan&#39;s Blog"><meta property="og:title" content="群晖自建Bitwarden" />
-<meta property="og:description" content="群晖自建bitwarden docker安装bitwarden 安装完成后
-配置https 已有域名和ssl
-配置反向代理
-nat 我是公网ip到路由器的
-路由器设置转发到反向代理的端口
-成功" />
+        <title>Nginx重写 - xuanran</title><meta name="Description" content="XuanRan&#39;s Blog"><meta property="og:title" content="Nginx重写" />
+<meta property="og:description" content="if ($uri ~* &quot;/bankH5/.*yh/(.*)&quot;){ rewrite ^/bankH5/.*yh/(.*) /bankH5/$1 break; } if ($uri ~* &quot;/bankH5/.*zncs/(.*)&quot;){ rewrite ^/bankH5/.*zncs/(.*) /bankH5/$1 break; } if ($uri ~* &quot;/yszc/.*qyzc/(.*)&quot;){ rewrite ^/yszc/.*qyzc/(.*) /yszc/$1 break; }" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://blog.jiangshigui.xyz/bitwarden/" /><meta property="og:image" content="http://blog.jiangshigui.xyz/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-08-27T10:45:51+08:00" />
-<meta property="article:modified_time" content="2022-08-27T10:45:51+08:00" /><meta property="og:site_name" content="xuanran" />
+<meta property="og:url" content="http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/" /><meta property="og:image" content="http://blog.jiangshigui.xyz/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-09-08T11:45:06+08:00" />
+<meta property="article:modified_time" content="2022-09-08T11:45:06+08:00" /><meta property="og:site_name" content="xuanran" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://blog.jiangshigui.xyz/logo.png"/>
 
-<meta name="twitter:title" content="群晖自建Bitwarden"/>
-<meta name="twitter:description" content="群晖自建bitwarden docker安装bitwarden 安装完成后
-配置https 已有域名和ssl
-配置反向代理
-nat 我是公网ip到路由器的
-路由器设置转发到反向代理的端口
-成功"/>
+<meta name="twitter:title" content="Nginx重写"/>
+<meta name="twitter:description" content="if ($uri ~* &quot;/bankH5/.*yh/(.*)&quot;){ rewrite ^/bankH5/.*yh/(.*) /bankH5/$1 break; } if ($uri ~* &quot;/bankH5/.*zncs/(.*)&quot;){ rewrite ^/bankH5/.*zncs/(.*) /bankH5/$1 break; } if ($uri ~* &quot;/yszc/.*qyzc/(.*)&quot;){ rewrite ^/yszc/.*qyzc/(.*) /yszc/$1 break; }"/>
 <meta name="application-name" content="XuanRan">
 <meta name="apple-mobile-web-app-title" content="XuanRan"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://blog.jiangshigui.xyz/bitwarden/" /><link rel="prev" href="http://blog.jiangshigui.xyz/sop/" /><link rel="next" href="http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/" /><link rel="prev" href="http://blog.jiangshigui.xyz/bitwarden/" /><link rel="next" href="http://blog.jiangshigui.xyz/%E6%A0%91%E8%8E%93%E6%B4%BEopenwrt%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "群晖自建Bitwarden",
+        "headline": "Nginx重写",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/blog.jiangshigui.xyz\/bitwarden\/"
-        },"image": ["http:\/\/blog.jiangshigui.xyz\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  10 ,
-        "url": "http:\/\/blog.jiangshigui.xyz\/bitwarden\/","datePublished": "2022-08-27T10:45:51+08:00","dateModified": "2022-08-27T10:45:51+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "http:\/\/blog.jiangshigui.xyz\/nginx%E9%87%8D%E5%86%99\/"
+        },"image": ["http:\/\/blog.jiangshigui.xyz\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "nginx","wordcount":  27 ,
+        "url": "http:\/\/blog.jiangshigui.xyz\/nginx%E9%87%8D%E5%86%99\/","datePublished": "2022-09-08T11:45:06+08:00","dateModified": "2022-09-08T11:45:06+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "http:\/\/blog.jiangshigui.xyz\/images\/avatar.png"},"author": {
                 "@type": "Person",
@@ -72,7 +62,7 @@ nat 我是公网ip到路由器的
                     <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
                 </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
                     <i class="fa fa-globe" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/bitwarden/" selected>English</option></select>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/nginx%E9%87%8D%E5%86%99/" selected>English</option></select>
                 </a></div>
         </div>
     </div>
@@ -106,7 +96,7 @@ nat 我是公网ip到路由器的
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
                     <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/bitwarden/" selected>English</option></select>
+                    <select class="language-select" onchange="location = this.value;"><option value="/nginx%E9%87%8D%E5%86%99/" selected>English</option></select>
                 </a></div>
     </div>
 </header><div class="search-dropdown desktop">
@@ -118,10 +108,10 @@ nat 我是公网ip到路由器的
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">群晖自建Bitwarden</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Nginx重写</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>yhf</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-08-27">2022-08-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;10 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;<span id="/bitwarden/" class="leancloud_visitors" data-flag-title="群晖自建Bitwarden">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-09-08">2022-09-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;27 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;<span id="/nginx%E9%87%8D%E5%86%99/" class="leancloud_visitors" data-flag-title="Nginx重写">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -129,100 +119,33 @@ nat 我是公网ip到路由器的
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#群晖自建bitwarden">群晖自建bitwarden</a>
-      <ul>
-        <li><a href="#docker安装bitwarden">docker安装bitwarden</a></li>
-        <li><a href="#配置https">配置https</a></li>
-        <li><a href="#nat">nat</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav></div>
-            </div><div class="content" id="content"><h2 id="群晖自建bitwarden">群晖自建bitwarden</h2>
-<h3 id="docker安装bitwarden">docker安装bitwarden</h3>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.47.03@2x.png"
-        data-srcset="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.47.03@2x.png, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.47.03@2x.png 1.5x, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.47.03@2x.png 2x"
-        data-sizes="auto"
-        alt="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.47.03@2x.png"
-        title="CleanShot 2022-08-27 at 10.47.03@2x" /></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.38@2x.png"
-        data-srcset="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.38@2x.png, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.38@2x.png 1.5x, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.38@2x.png 2x"
-        data-sizes="auto"
-        alt="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.38@2x.png"
-        title="CleanShot 2022-08-27 at 10.49.38@2x" /></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.56@2x.png"
-        data-srcset="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.56@2x.png, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.56@2x.png 1.5x, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.56@2x.png 2x"
-        data-sizes="auto"
-        alt="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2010.49.56@2x.png"
-        title="CleanShot 2022-08-27 at 10.49.56@2x" /></p>
-<p>安装完成后</p>
-<h3 id="配置https">配置https</h3>
-<p>已有域名和ssl</p>
-<p>配置反向代理</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.46.38@2x.png"
-        data-srcset="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.46.38@2x.png, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.46.38@2x.png 1.5x, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.46.38@2x.png 2x"
-        data-sizes="auto"
-        alt="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.46.38@2x.png"
-        title="CleanShot 2022-08-27 at 11.46.38@2x" /></p>
-<h3 id="nat">nat</h3>
-<p>我是公网ip到路由器的</p>
-<p>路由器设置转发到反向代理的端口</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.44.49@2x.png"
-        data-srcset="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.44.49@2x.png, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.44.49@2x.png 1.5x, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.44.49@2x.png 2x"
-        data-sizes="auto"
-        alt="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.44.49@2x.png"
-        title="CleanShot 2022-08-27 at 11.44.49@2x" /></p>
-<p>成功</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.47.13@2x.png"
-        data-srcset="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.47.13@2x.png, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.47.13@2x.png 1.5x, http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.47.13@2x.png 2x"
-        data-sizes="auto"
-        alt="http://rh46kyfua.hd-bkt.clouddn.com/img/CleanShot%202022-08-27%20at%2011.47.13@2x.png"
-        title="CleanShot 2022-08-27 at 11.47.13@2x" /></p>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><p><code>  if ($uri ~* &quot;/bankH5/.*yh/(.*)&quot;){ rewrite ^/bankH5/.*yh/(.*) /bankH5/$1 break; } if ($uri ~* &quot;/bankH5/.*zncs/(.*)&quot;){ rewrite ^/bankH5/.*zncs/(.*) /bankH5/$1 break; } if ($uri ~* &quot;/yszc/.*qyzc/(.*)&quot;){ rewrite ^/yszc/.*qyzc/(.*) /yszc/$1 break; }</code></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2022-08-27</span>
+                <span>Updated on 2022-09-08</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/bitwarden/index.md" target="_blank">Read Markdown</a>
+                            <a class="link-to-markdown" href="/nginx%E9%87%8D%E5%86%99/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://blog.jiangshigui.xyz/bitwarden/" data-title="群晖自建Bitwarden" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://blog.jiangshigui.xyz/bitwarden/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://blog.jiangshigui.xyz/bitwarden/" data-title="群晖自建Bitwarden"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://blog.jiangshigui.xyz/bitwarden/" data-title="群晖自建Bitwarden"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://blog.jiangshigui.xyz/bitwarden/" data-title="群晖自建Bitwarden"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/" data-title="Nginx重写" data-via="xxxx" data-hashtags="nginx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/" data-hashtag="nginx"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/" data-title="Nginx重写"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/" data-title="Nginx重写"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/" data-title="Nginx重写"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/nginx/">nginx</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/sop/" class="prev" rel="prev" title="Sop"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Sop</a>
-            <a href="/nginx%E9%87%8D%E5%86%99/" class="next" rel="next" title="Nginx重写">Nginx重写<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/bitwarden/" class="prev" rel="prev" title="群晖自建Bitwarden"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>群晖自建Bitwarden</a>
+            <a href="/%E6%A0%91%E8%8E%93%E6%B4%BEopenwrt%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/" class="next" rel="next" title="树莓派openwrt无法访问">树莓派openwrt无法访问<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.

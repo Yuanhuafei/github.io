@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>openwrt - Tag - xuanran</title>
+        <link>http://blog.jiangshigui.xyz/tags/openwrt/</link>
+        <description>openwrt - Tag - xuanran</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>yuanhuafei.my@qq.com (yhf)</managingEditor>
+            <webMaster>yuanhuafei.my@qq.com (yhf)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 08 Sep 2022 11:45:27 &#43;0800</lastBuildDate><atom:link href="http://blog.jiangshigui.xyz/tags/openwrt/" rel="self" type="application/rss+xml" /><item>
+    <title>树莓派openwrt无法访问</title>
+    <link>http://blog.jiangshigui.xyz/%E6%A0%91%E8%8E%93%E6%B4%BEopenwrt%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/</link>
+    <pubDate>Thu, 08 Sep 2022 11:45:27 &#43;0800</pubDate>
+    <author>yhf</author>
+    <guid>http://blog.jiangshigui.xyz/%E6%A0%91%E8%8E%93%E6%B4%BEopenwrt%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE/</guid>
+    <description><![CDATA[sudo ip link add mynet link eth0 type macvlan mode bridge sudo ip addr add 192.168.50.248 dev mynet sudo ip link set mynet up sudo ip route add 192.168.50.3 dev mynet sudo ip route del 192.168.50.0/24 dev eth0 sudo ip route del default sudo ip route add 192.168.50.0/24 dev mynet sudo ip route add default via 192.168.50.3 dev mynet;]]></description>
+</item>
+</channel>
+</rss>

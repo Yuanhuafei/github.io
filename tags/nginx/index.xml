@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>nginx - Tag - xuanran</title>
+        <link>http://blog.jiangshigui.xyz/tags/nginx/</link>
+        <description>nginx - Tag - xuanran</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>yuanhuafei.my@qq.com (yhf)</managingEditor>
+            <webMaster>yuanhuafei.my@qq.com (yhf)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 08 Sep 2022 11:45:06 &#43;0800</lastBuildDate><atom:link href="http://blog.jiangshigui.xyz/tags/nginx/" rel="self" type="application/rss+xml" /><item>
+    <title>Nginx重写</title>
+    <link>http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/</link>
+    <pubDate>Thu, 08 Sep 2022 11:45:06 &#43;0800</pubDate>
+    <author>yhf</author>
+    <guid>http://blog.jiangshigui.xyz/nginx%E9%87%8D%E5%86%99/</guid>
+    <description><![CDATA[if ($uri ~* &quot;/bankH5/.*yh/(.*)&quot;){ rewrite ^/bankH5/.*yh/(.*) /bankH5/$1 break; } if ($uri ~* &quot;/bankH5/.*zncs/(.*)&quot;){ rewrite ^/bankH5/.*zncs/(.*) /bankH5/$1 break; } if ($uri ~* &quot;/yszc/.*qyzc/(.*)&quot;){ rewrite ^/yszc/.*qyzc/(.*) /yszc/$1 break; }]]></description>
+</item>
+</channel>
+</rss>
